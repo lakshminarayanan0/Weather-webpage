@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+      
+    <link rel="stylesheet" href="/weather web page/weather.css">
+</head>
+<body>
+    
+    <div class='searchArea'>
+        <input type="text" placeholder="Enter your City" required><button>search</button>
+        <div class="error">*Invalid city name</div>
+    </div>
+    <div class="details">
+        <div class="zone"><img class="ricons" src="/weather web page/weather/timezone.png" alt="" srcset=""><p class="timezone">timezone</p></div>
+            <div class="des"> <img src="/weather web page/weather/weather.png" alt="weather icon" >
+                <h2 class="description">Weather</h2>
+           </div>
+        <div class="location"><img class="ricons" src="/weather web page/weather/location.png"><p class="text">location</p></div>
+        <div class="temperature"><img class="ricons" src="/weather web page/weather/temperature.png"><p class="text">Temperature</p></div>
+        <div class="humidity"><img id="humidityicon" class="ricons" src="/weather web page/weather/humidity.png"><p class="text">Humidity</p></div>
+        <div class="windSpeed"><img id="wicon" class="ricons" src="/weather web page/weather/wind.png.png"><p class="text">Wind speed</p></div>
+    </div>
+    <script src="/weather web page/weather.js"></script>
+</body>
+</html>
